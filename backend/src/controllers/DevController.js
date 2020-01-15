@@ -18,12 +18,12 @@ module.exports = {
     },
 
     async store (request, response) {
-    const { github_usarname, techs, latitude, longitude } =  request.body;
+    const { github_username, techs, latitude, longitude } =  request.body;
 
-    let dev = await Dev.findOne({ github_usarname });
+    let dev = await Dev.findOne({ github_username });
 
     if (!dev) {
-        const apiResponse = await axios.get(`https://api.github.com/users/${github_usarname}`);
+        const apiResponse = await axios.get(`https://api.github.com/users/${github_username}`);
 
         const { name = login, avatar_url, bio } = apiResponse.data;
 
@@ -35,7 +35,7 @@ module.exports = {
         };
 
         dev = await Dev.create({
-            github_usarname,
+            github_username,
             name,
             avatar_url,
             bio,
@@ -47,16 +47,16 @@ module.exports = {
     return response.json(dev);
     },
 
-    async update(){
+   // async update(){
         //função para atualizar dados do usuário
         // Name
         // avatar_url
         // bio
         // location
         // techs
-    },
+   // },
 
-    async destroy(){
+  //  async destroy(){
         //função para deletar um usuário
-    },
+   // },
 };
