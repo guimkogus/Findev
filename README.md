@@ -57,7 +57,7 @@ Caso queira botar a mão na massa e contribuir com o projeto, basta seguir os pa
 3. Crie uma branch com a sua alteração: `git checkout -b minha-feature`
 4. Faça as alterações desejadas no código, documentação ou estrutura
 5. Faça o commit das suas alterações: `git commit -m 'feat: Minha nova feature'`
-6. Faça o push para a sua branch: `git push origin minha-alteracao`
+6. Faça o push para a sua branch: `git push origin minha-feature`
 7. Agora é só abrir a sua Pull Request!
 
 _ps: Depois que o merge da sua pull request for feito, caso queira você pode deletar a sua branch._
