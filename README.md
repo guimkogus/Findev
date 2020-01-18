@@ -18,7 +18,7 @@ Contato por email: guilherme.mkogus@gmail.com
 
 Ou me encontre no <a href="https://www.linkedin.com/in/guilherme-marques-kogus-5b1575142/">LinkedIn</a>. 
 
-### A ideia do aplicativo:
+### A ideia:
 
 _"Encontre desenvolvedores próximos onde quer que você esteja"._
 
