@@ -7,34 +7,34 @@
 <img src="mobile/assets/main.png" /> <img src="mobile/assets/profile.png" />
 
 ## Sobre o projeto
+
+### O que?
+Este projeto foi criado juntamente à Semana OmniStack 10.0 da <a href="https://rocketseat.com.br">Rocketseat</a> ministrada por Diego Fernandes. As aulas tem como objetivo a criação dos primeiros portfólios e introdução ao Node.js, ReactJS e React Native, bem como outras bibliotecas e recursos.
+
+### Por que?
+O que me motivou à participação e criação do projeto foi a construção de portfólio e adquirir novos conhecimentos. Ficarei muito feliz se você puder enviar qualquer feedback sobre o projeto, código, estrutura ou qualquer outra coisa que você tenha notado que possa me fazer um desenvolvedor melhor!
+
+Contato por email: guilherme.mkogus@gmail.com
+
+Ou me encontre no <a href="https://www.linkedin.com/in/guilherme-marques-kogus-5b1575142/">LinkedIn</a>. 
+
 ### A ideia do aplicativo:
 
 _"Encontre desenvolvedores próximos onde quer que você esteja"._
 
 Na aplicação __web__, é possível se cadastrar informando apenas o nome de usuário do Github e suas tecnologias, a geolocalização é informada pelo próprio navegador!
 
-Na aplicação __mobile__, o usuário tem acesso ao mapa em sua localização, podendo pesquisar por desenvolvedores que utilizam certas tecnologias em um raio de até 10km de distância! Poderá também acessar o perfil do Github dos devs que chamarem atenção.
-
-### O que?
-Este projeto foi criado juntamente à Semana OmniStack 10.0 da <a href="https://rocketseat.com.br">Rocketseat</a> ministrada por Diego Fernandes. As aulas tem como objetivo a criação dos primeiros portfólios e introdução ao Node.js, ReactJS e React Native, bem como outras bibliotecas e recursos.
-
-### Por que?
-O que me motivou a participação e criação do projeto foi a construção de portfólio e adquirir novos conhecimentos. Ficarei muito feliz se você puder enviar qualquer feedback sobre o projeto, código, estrutura ou qualquer outra coisa que você tenha notado que possa me fazer um desenvolvedor melhor!
-
-Contato por email: guilherme.mkogus@gmail.com
-
-Ou me encontre no <a href="https://www.linkedin.com/in/guilherme-marques-kogus-5b1575142/">LinkedIn</a>. 
-
+Na aplicação __mobile__, o usuário tem acesso ao mapa em sua localização, podendo pesquisar por desenvolvedores que utilizam certas tecnologias em um raio de até 10km de distância! Poderá também acessar o perfil do Github dos devs que desejar.
 
 ## :computer: Instalação
 
-Clonando o projeto:
+__Clonando o projeto:__
 
 1. Abra o terminal do seu computador.
 2. Altere o diretório de trabalho atual para o local em que deseja ter o código do módulo salvo no seu computador.
 3. Faça um clone desse repositório rodando: <br> `git clone https://github.com/guimkogus/DevRadar.git`;
 
-Execução:
+__Executando o projeto:__
 
 1. Entre na pasta rodando pelo terminal: `cd DevRadar`
 2. Execute `yarn` para instalar as dependências do projeto;
