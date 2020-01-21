@@ -1,12 +1,14 @@
 <h1 align="center">DevRadar - Semana OmniStack 10.0 🛰</h1>
 
-## Web
+## :computer: Web
+
 <img src="web/assets/main.png" />
 
-## Mobile
+## :iphone: Mobile
+
 <img src="mobile/assets/main.png" /> <img src="mobile/assets/profile.png" />
 
-## Sobre o projeto
+## 🤔 Sobre o projeto
 
 ### O que?
 Este projeto foi criado juntamente à Semana OmniStack 10.0 da <a href="https://rocketseat.com.br">Rocketseat</a> ministrada por Diego Fernandes. As aulas tem como objetivo a criação dos primeiros portfólios e introdução ao Node.js, ReactJS e React Native, bem como outras bibliotecas e recursos.
@@ -26,6 +28,32 @@ Na aplicação __web__, é possível se cadastrar informando apenas o nome de us
 
 Na aplicação __mobile__, o usuário tem acesso ao mapa em sua localização, podendo pesquisar por desenvolvedores que utilizam certas tecnologias em um raio de até 10km de distância! Poderá também acessar o perfil do Github dos devs que desejar.
 
+## :mag_right: Tecnologias e recursos:
+[API](./backend):
+1. Node.JS
+2. Express
+3. Nodemon
+4. Insomnia
+5. MongoDB Atlas
+6. Mongoose
+7. Axios
+8. MongoDB Compass
+9. Cors
+10. Socket.io
+
+[Web](./web):
+1. ReactJS
+2. Axios
+
+[Mobile](./mobile):
+1. React Native
+2. Expo
+3. Android Studio
+4. Axios
+5. Socket.io
+  
+  Mais informações em [DevRadar/guide](./guide).
+
 ## :computer: Instalação
 
 __Clonando o projeto:__
@@ -44,13 +72,9 @@ __Executando o projeto:__
 6. Dentro da pasta <br> `DevRadar/mobile`, execute `yarn start` para inicializar a aplicação mobile.
 7. Para visualizar a aplicação mobile, utilize o aplicativo do Expo (Android e iOS) e leia o QR Code da página que abrirá automaticamente após a inicialização via terminal.
 
-
-
 ## :smirk: Contribuição
 
-
 Caso queira botar a mão na massa e contribuir com o projeto, basta seguir os passos:
-
 
 1. Faça um <a href="https://help.github.com/pt/github/getting-started-with-github/fork-a-repo">fork</a> deste repositório
 2. Entre no seu perfil do GitHub e faça um clone do repositório que você fez o fork
