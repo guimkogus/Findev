@@ -17,7 +17,7 @@ Usando Homebrew:
 brew install node
 ```
 #### [Linux](https://github.com/nodesource/distributions/blob/master/README.md):
-Usando Ubunto:
+Usando Ubuntu:
 ```sh
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install -y nodejs
@@ -53,7 +53,7 @@ Usando Homebrew:
 brew install yarn –ignore-dependencies
 ```
 ##### [Linux](https://yarnpkg.com/en/docs/install#debian-stable):
-Usando Ubunto / Debian:
+Usando Ubuntu / Debian:
 ```sh
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
